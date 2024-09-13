@@ -40,6 +40,14 @@ header img {
     font-weight: bold;
     margin-bottom: 50px;
 }
+
+.rounded-circle{
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    display: block;
+}
 footer {
     background-color: #343a40;
     color: white;
