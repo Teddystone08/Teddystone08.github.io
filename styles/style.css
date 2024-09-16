@@ -1,12 +1,16 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+/*
+header{
+    background: url('/images/elect_vote.jpg') center center no-repeat;
+}
+    */
 header img {
     width: 20%;
-
 }
 .hero-section {
-    background: url('/images/elect_vote.jpg') center center no-repeat;
+    
     background-size: cover;
     height: 90vh;
     display: flex;
