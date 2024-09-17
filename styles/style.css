@@ -1,44 +1,64 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
-/*
+
 header{
-    background: url('/images/elect_vote.jpg') center center no-repeat;
+    height: 850px;
 }
-    */
-header img {
-    width: 20%;
+.navbar-brand{
+    position: absolute;
+    left: 5rem;
+    top: 1rem;
 }
-.hero-section {
-    
-    background-size: cover;
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-align: center;
+
+.navbar-brand img{
+    width: 70%;
+    height: 4rem;
 }
+
+.navbar-collapse{
+    top: 3rem;
+    position: absolute;
+    right: 8rem;
+}
+.navbar-toggler{
+    position: absolute;
+    right: 4rem ;
+    top: 2rem;
+
+}
+
 .hero-section h1 {
     font-size: 3.5rem;
     font-weight: bold;
 }
+
 .hero-section p {
     font-size: 1.5rem;
     margin-bottom: 30px;
+    text-align: center;
 }
+.hero-section{
+    position: absolute;
+    top: 21rem;
+    left: 5rem;
+} 
+
 .features-section {
     padding: 60px 0;
 }
+
 .features-section h2 {
     margin-bottom: 50px;
     text-align: center;
     font-weight: bold;
 }
+
 .testimonials-section {
     background-color: #f8f9fa;
     padding: 60px 0;
 }
+
 .testimonials-section h2 {
     text-align: center;
     font-weight: bold;

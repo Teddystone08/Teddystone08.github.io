@@ -7,47 +7,57 @@
     <link href="/styles/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="/styles/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  
+    <link rel="icon" href="/images/favicon.ico">
 </head>
 <body>
-
+    
     <!-- Header Section -->
-    <header class="bg-primary text-light p-4" style="background-image: url(/images/elect_vote.jpg), repeat:no repeat" >
-        <div class="container">
-            <div class="h4 mb-0">
-                <img src="/images/Group 56.png" alt="logo"></div>
-            <p class="lead mb-0">Vote, Engage, and Lead the Future</p>
-            
-        </div>
-    <nav>
-        <div class="container">
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a href="#about" class="nav-link text-light">About us</a>
-                </li>
+    <header style="background-image: url('/images/elect_vote.jpg'); background-size: cover;">
+        <nav class="navbar navbar-expand-lg " style="visibility: visible;">
+            <div class="container ">
+                <a class="navbar-brand" href="/images/Group 56.png">
+                    <img src="/images/Group 56.png" alt="logo">
+                    <h5 class="text-white">Vote, engage and lead the future</h5>
+                </a>
 
-                <li class="nav-item">
-                    <a href="#features" class="nav-link text-light">Features</a>
-                </li>
-                
-                <li class="nav-item">
-                    <a href="#how" class="nav-link text-light">How It Works</a>
-                </li>
-                
-            </ul>
-        </div>
-    </nav>
+                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-    </header>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav ml-auto text-white">
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link ">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#how">How It Works</a>
+                        </li>
+                    </ul>
+                </div>
 
-    <!-- Hero Section -->
-    <section class="hero-section">
-        <div class="container">
+            </div>
+
+
+        </nav>
+
+        <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+        <div class="container text-white">
             <h1>Welcome to Campus Elect</h1>
             <p>The ultimate election platform for your campus. Voting made simple and accessible to every student.</p>
-            <a href="https://teddystone08.github.io" class="btn btn-primary btn-lg">Sign Up Now</a>
+            <a href="https://teddystone08.github.io" class="btn btn-primary btn-lg">Get started</a>
         </div>
     </section>
+        
+
+    </header>
+                
+    
+
+
     
 
     <!-- Features Section -->
@@ -93,7 +103,7 @@
                 <!-- Step 2 -->
                 <div class="col-md-4">
                     <div class="mb-4">
-                        <img src="images/StockCake-Casting a Vote_1726182038.jpg" alt="Step 2" class="rounded-circle">
+                        <img src="/images/StockCake-Casting a Vote_1726182038.jpg" alt="Step 2" class="rounded-circle">
                     </div>
                     <h5>Step 2: Vote</h5>
                     <p>Cast your vote for the candidates you support with just a few clicks.</p>
@@ -101,7 +111,7 @@
                 <!-- Step 3 -->
                 <div class="col-md-4">
                     <div class="mb-4">
-                        <img src="images/StockCake-Analyzing Financial Data_1726181511.jpg" alt="Step 3" class="rounded-circle">
+                        <img src="/images/StockCake-Analyzing Financial Data_1726181511.jpg" alt="Step 3" class="rounded-circle">
                     </div>
                     <h5>Step 3: Track Results</h5>
                     <p>Follow the live results and see how the elections unfold in real-time.</p>
@@ -110,13 +120,13 @@
         </div>
     </section>
 
-    <!-- about us Section -->
+    <!-- About Us Section -->
     <section class="testimonials-section">
         <div class="container" id="about">
             <h2>About Us</h2>
             <div class="row">
                 <div class="col-lg-12">
-                  <article>
+                  <article class="text-center">
                     As a student of a tertiary institution, 
                     I have witnessed student election activities and the effect they have on students and student politics(candidates).
                     Students who do not reside on campus are usually discomfort to travel distance only to cast their vote 
@@ -131,9 +141,8 @@
                     How execited candidate will be if their is another plaform to elevate their campaign that cost noting but can reach
                     student, interact, engage, measure performance and have real-time results during election.
                     it is also a hope that this system may be employed in our national election.
-
-
                   </article>
+                </div>
             </div>
         </div>
     </section>
@@ -144,7 +153,7 @@
             <p class="mb-0">&copy; 2024 Campus Elect. All rights reserved.</p>
             <p>Follow us on <a href="https://x.com/Ernestlrty?t=4Ddr0L3_4oa-40a-4NyToodTHg&s=08" class="text-white">Twitter</a> | <a href="https://www.instagram.com/?utm_source=pwa_homescreen&__pwa=1" class="text-white">Instagram</a> | 
                 <a href="www.linkedin.com/in/ernest-lartey-61213633" class="text-white">LinkedIn</a> | <a href="https://github.com/Teddystone08/campuselect.git">Github</a></p>
-            </div>
+        </div>
     </footer>
 
     <!-- Bootstrap JS & Dependencies -->
